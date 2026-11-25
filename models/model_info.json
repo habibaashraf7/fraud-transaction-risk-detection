@@ -1,0 +1,37 @@
+{
+  "model": "Gradient boosting \u00b7 balanced weights",
+  "features": [
+    "amt",
+    "log_amt",
+    "category_risk",
+    "hour",
+    "is_night",
+    "day_of_week",
+    "age",
+    "log_city_pop",
+    "distance_km",
+    "cust_prior_txns",
+    "amt_vs_cust_avg",
+    "amt_vs_cust_cat_avg",
+    "hours_since_prev",
+    "txns_last_24h",
+    "amt_last_24h",
+    "new_category_for_cust"
+  ],
+  "category_risk": {
+    "entertainment": 0.00246,
+    "food_dining": 0.00163,
+    "gas_transport": 0.00472,
+    "grocery_net": 0.00298,
+    "grocery_pos": 0.01403,
+    "health_fitness": 0.00152,
+    "home": 0.00153,
+    "kids_pets": 0.0021,
+    "misc_net": 0.01462,
+    "misc_pos": 0.00301,
+    "personal_care": 0.00234,
+    "shopping_net": 0.01755,
+    "shopping_pos": 0.0071,
+    "travel": 0.00302
+  }
+}

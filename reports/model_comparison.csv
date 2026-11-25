@@ -1,0 +1,7 @@
+Model,Imbalance,val_PR_AUC,val_ROC_AUC,train_seconds,test_PR_AUC,test_ROC_AUC
+Always 'legit' (no model),—,0.0059,0.5,0.0,0.0039,0.5
+Rule: rank by amount,—,0.1891,0.8384,0.0,0.1369,0.8332
+Logistic regression · balanced weights,weights,0.4238,0.9902,7.4,0.3089,0.987
+Gradient boosting · no imbalance handling,none,0.98,0.9996,29.4,0.9665,0.9992
+Gradient boosting · balanced weights,weights,0.9806,0.9994,13.3,0.968,0.9993
+Gradient boosting · undersampling 1:10,undersample,0.9781,0.9997,10.7,0.9656,0.9994

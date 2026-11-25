@@ -1,0 +1,12 @@
+{
+  "recommended_threshold": 0.76,
+  "review_cost": 15.0,
+  "friction_cost": 10.0,
+  "chosen_on": "validation (Mar\u2013Jun 2020)",
+  "all_choices": {
+    "Default 0.5": 0.5,
+    "Best F1": 0.89,
+    "Lowest total cost \u2b50": 0.76,
+    "Fill team capacity (120/day)": 0.00278738240419655
+  }
+}
